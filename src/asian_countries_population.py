@@ -35,6 +35,7 @@ def compute_southeast_countries_population(path:str,year:str):
     return southeast_population
 
 
+
 def plot(data:dict[str,int]):
     sorted_data = sorted(data.items(),key= lambda items:items[1])
     countries = [country for country,_ in sorted_data]
