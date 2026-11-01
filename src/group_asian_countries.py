@@ -79,6 +79,7 @@ def plot_group_by_year(data: dict[int, dict[str, int]]):
 
     plt.legend()
     plt.tight_layout()
+    plt.savefig("output/output4.png")
     plt.show()
 
 

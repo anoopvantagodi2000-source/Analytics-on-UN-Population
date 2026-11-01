@@ -30,6 +30,7 @@ def plot_indian_population(data:dict[str,int]):
     plt.xticks(rotation=45)
     plt.ticklabel_format(axis="y",style="plain")
     plt.tight_layout()
+    plt.savefig("output/India_population_over_years.png")
     plt.show()
 
 def main():

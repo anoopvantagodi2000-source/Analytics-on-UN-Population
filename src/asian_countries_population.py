@@ -46,6 +46,7 @@ def plot(data:dict[str,int]):
     plt.ylabel("Population")
     plt.title("South East population in Year 2014")
     plt.xticks(rotation=45)
+    plt.savefig("output/population_of_ASEAN_countries.png")
     plt.show()
 
 def main():

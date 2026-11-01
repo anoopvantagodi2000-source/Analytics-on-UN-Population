@@ -40,6 +40,8 @@ def plot(data:dict[str,int]):
     plt.ylabel("SARRC Population ")
     plt.title("SARRC Population in each Year")
     plt.xticks(rotation=45)
+    plt.savefig("output/total_population_of_SAARC_countries.png")
+
     plt.show()
 
 
